@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300i,400,400i,700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 19px;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/survey_images/cty_blur_background.jpg");
+    /* border is for testing
+    border: 2px solid red; */
+}
+
+header {
+    text-align: center;
+}
+
+header>h1 {
+    font-weight: 700;
+}
+
+header>p {
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+}
+
+main {
+    width: 700px;
+    margin: 0 auto;
+    background-color: #272747;
+    /* border is for testing
+    border: 2px solid blue; */
+}
+
+#survey-form {
+    padding: 30px;
+    line-height: 38px;
+}
+
+#name,
+#email,
+#number,
+#profession,
+#comment,
+#submit {
+    width: 95%;
+    height: 35px;
+    margin-top: 10px;
+}
+
+#comment {
+    height: 100px;
+}
+
+input,
+textarea,
+button {
+    padding: 5px;
+}
+
+input[type=checkbox],
+input[type=radio] {
+    margin-right: 20px;
+}
+
+#submit {
+    width: 97%;
+    height: 45px;
+    background-color: #37af65;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
