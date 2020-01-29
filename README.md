@@ -1,2 +1,2 @@
-# responsive-web-design-projects
-Mobile first UI's basically created with HTML and CSS
+# Responsive-Frontend-projects
+This repository contains diiferent website modules, page section created to mainly practice and to improve frontend skill.
